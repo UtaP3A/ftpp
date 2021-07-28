@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Subir archivos</title>
+    </head>
+    <body> 
+        <!-- Importantes para subir archivos -->
+<form action="subir.php" method="POST"   
+enctype="multipart/form-data">
+<!-- Input tipo archivo -->
+<input type="file" name="archivo">
+<!-- Input tipo Boon -->
+<input type="submit" value="ENVIAR">
+</form>
+    </body>
+</html>
