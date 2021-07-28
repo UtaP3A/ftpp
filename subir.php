@@ -8,7 +8,7 @@ if((!$con_id)||(!$lr)){
     echo 'No se pudo conectar';
     exit;
 }else{
-echo 'Conexión exitosa';
+echo 'ConexiÃ³n exitosa';
 /*Variables para subir un archivo*/
 $temp=explode(".", $_FILES['archivo']['name']);
 $source_file=$_FILES['archivo']['tmp_name'];
